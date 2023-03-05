@@ -12,7 +12,7 @@ baseURL: 'https://gzu-ai.github.io/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: flase
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################

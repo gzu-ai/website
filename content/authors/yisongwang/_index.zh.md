@@ -52,6 +52,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/yswang168/
+  - icon: cv
+    icon_pack: ai
+    link: /resume/cv-yisong.pdf
   # - icon: cv
   #   icon_pack: ai
   #   link: /resume/cv-yisong.pdf

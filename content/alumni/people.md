@@ -18,7 +18,7 @@ content:
   user_groups:
     - Alumni
 design:
-  show_interests: false
+  show_interests: true
   show_role: true
   show_social: true
 ---

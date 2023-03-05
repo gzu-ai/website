@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night:
   font: native
-  font_size: L
+  font_size: M
 
 # SEO
 
@@ -18,7 +18,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    description: 'Institute for Artificial Intelligence | Guizhou University'
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -90,6 +90,9 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+    wowchemy:
+      min_length: 1  # Only the matches whose length exceeds this value will be returned.
+      threshold: 0.3  # Where 0 requires a perfect match and 1 matches anything.
   map:
     provider: 'mapnik'
     api_key: ''

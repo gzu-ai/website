@@ -1,5 +1,5 @@
 ---
-title: 近期活动
+title: 活动
 
 # Listing view
 view: compact

@@ -22,7 +22,7 @@ content:
     - 研究生
     - 行政
     - 访问学者
-    - 毕业生
+    # - 毕业生
 design:
   show_interests: false
   show_role: true

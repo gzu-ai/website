@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: '贵州大学人工智能研究院'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -90,6 +90,9 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
+    wowchemy:
+      min_length: 1  # Only the matches whose length exceeds this value will be returned.
+      threshold: 0.3  # Where 0 requires a perfect match and 1 matches anything.
   map:
     provider: 'mapnik'
     api_key: ''
