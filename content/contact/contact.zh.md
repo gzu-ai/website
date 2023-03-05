@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: 联系我们
+title: Contact
 subtitle:
 
 content:
@@ -18,11 +18,11 @@ content:
   email:  gzu_ai@outlook.com
   # phone: 888 888 88 88
   address:
-    street: 花溪大道
-    city: 贵阳
-    region: 贵州
+    street: Huaxi district avenue
+    city: Guiyang
+    region: Guizhou
     postcode: '550025'
-    country: 中国
+    country: China
     country_code: CN
   coordinates:
     latitude: '26.44866'
@@ -45,4 +45,4 @@ design:
   columns: '1'
 ---
 
-欢迎交流学习
+Welcom
