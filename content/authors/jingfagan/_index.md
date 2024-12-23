@@ -31,7 +31,7 @@ education:
     institution: Guizhou University
     year: 2024-2027
   - course: B.S. in Computer Science and Technology
-    institution: Donghua University
+    institution: Guizhou University
     year: 2024
 
 # Social/Academic Networking
