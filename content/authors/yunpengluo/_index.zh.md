@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
 - 算法博弈论
-- 模型检测
+- 机制设计
 
 education:
   courses:

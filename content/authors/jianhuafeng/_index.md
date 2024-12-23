@@ -31,7 +31,7 @@ education:
     institution: Guizhou University
     year: 2024-2027
   - course: B.S. in Software Engineering
-    institution: Donghua University
+    institution: Guizhou University
     year: 2022
 
 # Social/Academic Networking
