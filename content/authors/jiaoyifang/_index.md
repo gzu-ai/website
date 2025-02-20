@@ -1,42 +1,38 @@
 ---
 # Display name
-title: 胡洪波
+title: Jiaoyi Fang
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- hongbohu
+- jiaoyifang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士生
+role: Grad Students
 
 # Organizations/Affiliations
 organizations:
-  - name: 贵州大学
-    url: 'https://www.gzu.edu.cn/'
+- name: Guizhou University
+  url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 路漫漫其修远兮，吾将上下而求索。
+bio: I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports, especially table tennis.
 
 # List each interest with a dash
 interests:
-- 归纳逻辑程序设计
-- 知识表示与推理
-- 回答集程序设计
+- Medical Image
+- Image Segmentation
 
 education:
   courses:
-  - course: 软件工程 博士
-    institution: 贵州大学
-    year: 2019-至今
-  - course: 软件工程 硕士
-    institution: 武汉大学
-    year: 2017
-  - course: 生物技术 学士
-    institution: 长江大学
-    year: 2013
+  - course: M.A. in Artificial Intelligence
+    institution: Guizhou University
+    year: 2027
+  - course: B.S. in Computer Science and Technology
+    institution: Dalian Minzu University
+    year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,8 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
-
+  link: 1076309449@qq.com
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,15 +57,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 博士生
-sections:
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+- Grad Students
 ---
-路漫漫其修远兮，吾将上下而求索。
+

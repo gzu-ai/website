@@ -1,10 +1,10 @@
 ---
 # Display name
-title: 胡洪波
+title: 周欣
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- hongbohu
+- xinzhou
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,21 +22,19 @@ bio: 路漫漫其修远兮，吾将上下而求索。
 
 # List each interest with a dash
 interests:
-- 归纳逻辑程序设计
 - 知识表示与推理
-- 回答集程序设计
 
 education:
   courses:
   - course: 软件工程 博士
     institution: 贵州大学
-    year: 2019-至今
-  - course: 软件工程 硕士
-    institution: 武汉大学
-    year: 2017
-  - course: 生物技术 学士
-    institution: 长江大学
-    year: 2013
+    year: 2020-至今
+  - course: 计算机科学 硕士
+    institution: 德国特里尔大学
+    year: 2005-2013
+  - course: 自动化 学士
+    institution: 四川大学
+    year: 1999-2003
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
+  link: '23653682@qq.com'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

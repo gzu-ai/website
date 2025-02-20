@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'jinyutang163@163.com'  # For a direct email link, use "mailto:test@example.org".
+  link: '807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

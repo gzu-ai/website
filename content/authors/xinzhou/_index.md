@@ -1,42 +1,41 @@
 ---
 # Display name
-title: 胡洪波
+title: Xin Zhou
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- hongbohu
+- xinzhou
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 博士生
+role: Ph.D. candidate
 
 # Organizations/Affiliations
 organizations:
-  - name: 贵州大学
+  - name: Guizhou University
     url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 路漫漫其修远兮，吾将上下而求索。
+bio: The journey is arduous and endless, yet I'll persevere in my quest.
 
 # List each interest with a dash
 interests:
-- 归纳逻辑程序设计
-- 知识表示与推理
-- 回答集程序设计
+- Knowledge Representation and Reasoning
+
 
 education:
   courses:
-  - course: 软件工程 博士
-    institution: 贵州大学
-    year: 2019-至今
-  - course: 软件工程 硕士
-    institution: 武汉大学
-    year: 2017
-  - course: 生物技术 学士
-    institution: 长江大学
-    year: 2013
+  - course: Ph.D. in Software Engineering
+    institution: Guizhou University
+    year: since 2020
+  - course: M.A. in Computer Science
+    institution: University of Trier
+    year: 2005-2013
+  - course: B.S. in Automation
+    institution: Sichuan University
+    year: 1999-2003
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -45,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
+  link: '23653682@qq.com'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -62,15 +61,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 博士生
-sections:
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+- PhD Candidate
 ---
-路漫漫其修远兮，吾将上下而求索。
+The journey is arduous and endless, yet I'll persevere in my quest.

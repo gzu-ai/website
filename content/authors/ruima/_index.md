@@ -63,4 +63,4 @@ user_groups:
 - Grad Students
 ---
 
-I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports, especially table tennis.
+I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.
