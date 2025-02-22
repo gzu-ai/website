@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:807585796@qq.com'  # For a direct email link, use "mailto:test@example.org".
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -74,3 +74,9 @@ sections:
       columns: '1'
 ---
 路漫漫其修远兮，吾将上下而求索。
+
+### 项目经历
+- 析取逻辑程序归纳学习研究及应用（国自然面上项目）
+- 证券零售客户服务平台（企业商用项目）
+- 中国移动服务群体挖掘（企业商用项目）
+- 仓储管理系统（企业商用项目）
