@@ -11,7 +11,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
+      - title: 👋 Welcome to the group 🥳
         content: ''
         align: center
         background:
@@ -22,7 +22,7 @@ sections:
           position: right
           color: '#666'
       - title: Lecture & Learn 
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+        content: 'The research of the OKRR lab ranges from knowledge representation and reasoning to artificial neural networks!'
         align: left
         background:
           image:
@@ -32,7 +32,7 @@ sections:
           position: center
           color: '#555'
       - title: Visit & Lunch ☕️
-        content: ''
+        content: ' Welcome to join us! :smile:'
         align: left
         background:
           image:
@@ -42,7 +42,7 @@ sections:
           position: center
           color: '#555'
       - title: Seminar
-        content: ''
+        content: 'Team members have won awards such as the Ray Reiter Best Paper Award at KR-2006 and the Best Paper Award at ILP-2016.'
         align: left
         background:
           image:
@@ -52,7 +52,7 @@ sections:
           position: center
           color: '#555'
       - title: Omiga-krr Group
-        content: '!!!!!!!'
+        content: 'Professor Wang Yisong has supervised more than 200 Ph.D. and M.S. students.🎓'
         align: right
         background:
           image:
