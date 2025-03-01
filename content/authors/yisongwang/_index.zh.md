@@ -31,10 +31,10 @@ education:
     - course: 计算机软件理论 博士
       institution: 贵州大学
       year: 2007
-    - course: 计算机应用 硕士
+    - course: 计算机应用技术 硕士
       institution: 贵州大学
       year: 2004
-    - course: 软件工程 学士
+    - course: 软件 学士
       institution: 贵州大学
       year: 1998
 

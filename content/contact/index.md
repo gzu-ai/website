@@ -22,7 +22,7 @@ sections:
       coordinates:
         latitude: '26.44866'
         longitude: '106.67011'
-      directions: Floor 4, Shensi Building 
+      directions: Floor 4, Zhishan Building 
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'

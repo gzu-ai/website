@@ -22,7 +22,7 @@ sections:
       coordinates:
         latitude: '26.44866'
         longitude: '106.67011'
-      directions: 慎思楼四楼
+      directions: 至善楼四楼
       office_hours:
         - '周一至周五 9:00 to 12:00, 14:00-17:00'
       # appointment_url: 'https://calendly.com'

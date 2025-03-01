@@ -33,7 +33,7 @@ education:
     - course: Ph.D. in Computer software and theory
       institution: Guizhou University
       year: 2007
-    - course: M.A. in Computer application
+    - course: M.A. in Computer application technology
       institution: Guizhou University
       year: 2004
     - course: B.S. in Software
