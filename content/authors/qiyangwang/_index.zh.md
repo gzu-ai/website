@@ -22,17 +22,17 @@ bio:
 
 # List each interest with a dash
 interests:
-- 零样本学习
-- 领域偏移
+- 医学图像处理
+- 图像分割及分类
 
 education:
   courses:
   - course: 计算机科学与技术 硕士
     institution: 贵州大学
-    year: 2026
-  - course: 软件工程 学士
-    institution: 天津工业大学
-    year: 2023
+    year: 2027
+  - course: 计算机科学与技术 学士
+    institution: 贵州大学
+    year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,10 +41,8 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 2761684990@qq.com
-- icon: github
-  icon_pack: fab
-  link: 4399.com
+  link: 1473315072@qq.com
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

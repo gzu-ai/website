@@ -22,17 +22,17 @@ bio:
 
 # List each interest with a dash
 interests:
-- Zero-shot Learning
-- Domain Generalization
+- Medical Image
+- Image Segmentation and Classification
 
 education:
   courses:
   - course: M.A. in Computer Science and Technology
     institution: Guizhou University
-    year: 2026
+    year: 2027
   - course: B.S. in Computer Science and Technology
-    institution: Tiangong University
-    year: 2023
+    institution: Guizhou University
+    year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 3255988713@qq.com
+  link: 1473315072@qq.com
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
