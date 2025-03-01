@@ -42,7 +42,7 @@ sections:
           position: center
           color: '#555'
       - title: Seminar
-        content: 'Team members have won awards such as the Ray Reiter Best Paper Award at KR-2006 and the Best Paper Award at ILP-2016.'
+        content: 'Team members have won awards such as the Ray Reiter Best Paper Award at KR-2006 and the Best Student Paper at ILP-2016.'
         align: left
         background:
           image:
