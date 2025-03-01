@@ -1,5 +1,5 @@
 ---
-title: 2025 Graduate Student Recruitment Announcement
+title: 2025年硕士研究生招新公告
 
 # event: Lecture
 # event_url: https://example.org
@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: 中国
 
-summary: 本实验室依托贵州大学，专注于知识表示与推理等人工智能领域研究，欢迎大家加入！
+summary: 本实验室专注于知识表示与推理等人工智能领域研究，欢迎大家加入！
 abstract: ''
 
 # Talk start and end times.

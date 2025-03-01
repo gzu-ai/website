@@ -13,7 +13,7 @@ address:
   country: China
   country_code: CN
 
-summary: Affiliated with Guizhou University, our laboratory focuses on artificial intelligence research including knowledge representation and reasoning. Join our team!
+summary: Our laboratory focuses on artificial intelligence research including knowledge representation and reasoning. Join our team!
 abstract: ''
 
 # Talk start and end times.
@@ -55,4 +55,4 @@ slides:
 projects:
 ---
 
-Rui Ma (Master's student in Computer Science and Technology) is the recruitment coordinator for the 2025 intake. For inquiries, please reach out via: QQ: 2761684990
+Rui Ma (Master student) is the recruitment coordinator for the 2025 intake. For inquiries, please reach out via: QQ: 2761684990
