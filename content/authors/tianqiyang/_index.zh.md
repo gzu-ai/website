@@ -32,7 +32,7 @@ education:
     year: 2024-2027
   - course: 电子商务 学士
     institution: 东北大学
-    year: 2024
+    year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
