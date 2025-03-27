@@ -1,7 +1,7 @@
 ---
 title: "Witnesses for Answer Sets of Logic Programs"
 authors:
-- yisongwang
+- Yisong Wang
 - Thomas Eiter
 - Yuanlin Zhang
 - Fangzhen Lin

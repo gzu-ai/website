@@ -2,7 +2,7 @@
 title: "Learning possibilistic dynamic systems from state transitions"
 authors:
 - hongbohu
-- yisongwang
+- Yisong Wang
 - Katsumi Inoue
 # author_notes:
 # - "Equal contribution"

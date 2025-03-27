@@ -2,7 +2,7 @@
 title: "Strong Forgetting in Hennessy-Milner Logic"
 authors:
 - xinzhou
-- yisongwang
+- Yisong Wang
 - renyanfeng
 - songhangxu
 # author_notes:

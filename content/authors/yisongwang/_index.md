@@ -6,7 +6,7 @@ first_name: Shiung Wu
 last_name: Chien
 # Username (this should match the folder name)
 authors:
-  - yisongwang
+  - Yisong Wang
 
 # Is this the primary user of the site?
 superuser: false
