@@ -1,38 +1,37 @@
 ---
 # Display name
-title: Rui Ma
+title: 王翔龙
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- ruima
+- Xianglong Wang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Grad Students
+role: 研究生
 
 # Organizations/Affiliations
 organizations:
-- name: Guizhou University
+- name: 贵州大学
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports, especially table tennis.
+bio: A third-year Master's student at Guizhou University, passionate about Spicy Chicken Rice Noodles, and hoping to gain weight (ˉ▽ˉ；)...
 
 # List each interest with a dash
 interests:
-- Zero-shot Learning
-- Domain Generalization
+- 人工智能
 
 education:
   courses:
-  - course: M.A. in Computer Science and Technology
-    institution: Guizhou University
-    year: 2026
-  - course: B.S. in Software
-    institution: Tiangong University
-    year: 2023
+  - course: 计算机科学与技术 硕士
+    institution: 贵州大学
+    year: 2025
+  - course: 计算机科学与技术 学士
+    institution: 山东财经大学
+    year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,10 +40,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:2761684990@qq.com'
+  link: 'mailto:290208655@qq.com'
 - icon: github
   icon_pack: fab
-  link: 'https://github.com/2hlovely'
+  link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -60,7 +59,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- 硕士生
 ---
 
-I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.
+A third-year Master's student at Guizhou University, passionate about Spicy Chicken Rice Noodles, and hoping to gain weight (ˉ▽ˉ；)...
