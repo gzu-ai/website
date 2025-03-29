@@ -76,3 +76,20 @@ hugo --minify
 ### 模块说明
 - github.com/gzu-ai/hugo-blox-builder/modules/blox-krrbootstrap: 主题
 - vendor： 内置模块， 为主题打包第三方资源，目前打包了 academicons  leaflet mathjax
+
+
+### marui添加：
+- 从 BibTeX 导入 publications
+
+打开终端或命令提示符应用程序并安装Academic导入工具：
+  
+```
+pip3 install -U academic
+```
+
+使用cd命令在终端中导航到网站文件夹。
+
+然后使用以下命令导入出版物：
+```
+academic import --bibtex data/publications.bib publication/
+```
