@@ -29,10 +29,10 @@ education:
   courses:
   - course: M.A. in Computer Science and Technology
     institution: Guizhou University
-    year: 2026
+    year: 2024-2027
   - course: B.S. in Software
     institution: Tiangong University
-    year: 2023
+    year: 2019-2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

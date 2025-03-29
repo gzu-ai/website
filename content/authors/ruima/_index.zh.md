@@ -23,16 +23,16 @@ bio: 贵州大学硕士一年级在读生，科研小白，对科研抱有热爱
 # List each interest with a dash
 interests:
 - 零样本学习
-- 领域偏移
+- 领域泛化
 
 education:
   courses:
   - course: 计算机科学与技术 硕士
     institution: 贵州大学
-    year: 2026
+    year: 2024-2027
   - course: 软件工程 学士
     institution: 天津工业大学
-    year: 2023
+    year: 2019-2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
