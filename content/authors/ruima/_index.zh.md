@@ -64,3 +64,5 @@ user_groups:
 ---
 
 贵州大学硕士一年级在读生，科研小白，对科研抱有热爱之心，在科研之余喜爱运动。
+
+{{<github_repo "2hlovely/ZSL-DG_Papers" "一些优秀的零样本域泛化论文" >}}

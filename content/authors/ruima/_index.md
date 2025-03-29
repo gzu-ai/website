@@ -67,3 +67,5 @@ user_groups:
 
 
 I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.
+
+{{<github_repo "2hlovely/ZSL-DG_Papers" " Awesome-Zero-Shot-Learning-Domain-Generalization-Papers" >}}
