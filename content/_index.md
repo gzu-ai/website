@@ -19,8 +19,8 @@ sections:
             filename: welcome1.png
             filters:
               brightness: 0.7
-          position: right
-          color: '#666'
+          position: center
+          color: '#333'
       - title: Lecture & Learn 
         content: 'The research of the OKRR lab ranges from knowledge representation and reasoning to artificial neural networks!'
         align: left
@@ -51,6 +51,11 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
+        link:
+          icon: github
+          icon_pack: fab
+          text: Follow us
+          url: 'https://github.com/gzu-ai'
       - title: Omiga-krr Group
         content: 'Professor Wang Yisong has supervised more than 200 Ph.D. and M.S. students.🎓'
         align: right
@@ -65,7 +70,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../contact/
+          url: ../en/post/graduate-student-recruitment-announcement/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''

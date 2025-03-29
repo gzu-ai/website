@@ -1,5 +1,5 @@
 ---
-title: Learning Disjunctive Logic Programs from Interpretation Transition
+title: Learning Disjunctive Logic Programs from Interpretation Transition(🏆Best student paper🏆)
 
 # Authors
 # A YAML list of author names
@@ -18,7 +18,7 @@ author_notes: []
 date: '2016-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-03-27T07:43:37.200636Z'
+publishDate: '2025-03-28T12:26:57.676142Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).

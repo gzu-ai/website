@@ -64,3 +64,7 @@ highlight_name: false
 user_groups:
 - PhD Candidate
 ---
+
+### Github repository
+{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
+{{<github_repo "YtJin-git/awesome-CZSL-papers" "Awesome Compositional Zero-Shot Learning Papers" >}}

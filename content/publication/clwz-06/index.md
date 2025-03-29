@@ -1,5 +1,5 @@
 ---
-title: First-Order Loop Formulas for Normal Logic Programs
+title: First-Order Loop Formulas for Normal Logic Programs(🏆Ray Reiter Best paper🏆)
 
 # Authors
 # A YAML list of author names
@@ -18,7 +18,7 @@ author_notes: []
 date: '2006-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-03-27T08:03:46.426379Z'
+publishDate: '2025-03-28T12:26:57.786871Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).

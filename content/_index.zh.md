@@ -49,6 +49,11 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
+        link:
+          icon: github
+          icon_pack: fab
+          text: Follow us
+          url: 'https://github.com/gzu-ai'
       - title: Omiga-krr Group
         content: 'Professor Wang Yisong has supervised more than 200 Ph.D. and M.S. students.🎓'
         align: right
@@ -63,7 +68,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../contact/
+          url: ../zh/post/graduate-student-recruitment-announcement/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''

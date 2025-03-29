@@ -41,10 +41,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 2761684990@qq.com
+  link: 'mailto:2761684990@qq.com'
 - icon: github
   icon_pack: fab
-  link: 4399.com
+  link: 'https://github.com/2hlovely'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

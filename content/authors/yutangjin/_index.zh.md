@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
 - 组合零样本学习
-- 解耦表示学习
+- 解耦表征学习
 
 education:
   courses:
@@ -72,3 +72,7 @@ sections:
     design:
       columns: '1'
 ---
+
+### 项目仓库
+{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
+{{<github_repo "YtJin-git/awesome-CZSL-papers" "杰出组合零样本学习论文" >}}
