@@ -30,7 +30,7 @@ education:
   - course: Ph.D. in Software Engineering
     institution: Guizhou University
     year: since 2020
-  - course: M.A. in Computer Science
+  - course: Dipl. Inf. (M.A.) in Computer Science
     institution: University of Trier
     year: 2005-2013
   - course: B.S. in Automation
