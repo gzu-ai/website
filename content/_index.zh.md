@@ -9,12 +9,22 @@ sections:
   - block: slider
     content:
       slides:
+      - title: 
+        content: ''
+        align: center
+        background:
+          image:
+            filename: welcome.webp
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
       - title: 👋 Welcome to the group 🥳
         content: ''
         align: center
         background:
           image:
-            filename: welcome1.png
+            filename: welcome1.webp
             filters:
               brightness: 0.7
           position: right
@@ -24,7 +34,7 @@ sections:
         align: left
         background:
           image:
-            filename: welcome2.png
+            filename: welcome2.webp
             filters:
               brightness: 0.7
           position: center
@@ -34,7 +44,7 @@ sections:
         align: left
         background:
           image:
-            filename: welcome3.png
+            filename: welcome3.webp
             filters:
               brightness: 0.7
           position: center
@@ -44,7 +54,7 @@ sections:
         align: left
         background:
           image:
-            filename: welcome4.png
+            filename: welcome4.webp
             filters:
               brightness: 0.7
           position: center
@@ -59,7 +69,7 @@ sections:
         align: right
         background:
           image:
-            filename: welcome5.png
+            filename: welcome5.webp
             filters:
               brightness: 0.5
           position: center

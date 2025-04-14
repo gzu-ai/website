@@ -6,6 +6,9 @@
 title: Omiga-krr Group # Website name
 baseURL: '/' # Website URL
 
+params:
+  site_logo: media/icon.webp
+
 ############################
 ## LANGUAGE
 ############################

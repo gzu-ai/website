@@ -1,11 +1,13 @@
 ---
+type: authors
+
 # Display name
 title: Yutang Jin
 
 # Username (this should match the folder name and the name on publications)
 authors:
 - yutangjin
-
+avatar: avater.jpg
 # Is this the primary user of the site?
 superuser: false
 

@@ -1,0 +1,44 @@
+{{ $section := .section }}
+
+<section class="home-section" id="{{ $section.block | default "slider" }}">
+  <div class="slider-container">
+    {{ range $i, $slide := $section.content.slides }}
+      <div class="slide-item" style="background-color: {{ $slide.background.color | default "#000" }};">
+        {{/* 加载图片并做格式转换与尺寸处理 */}}
+        {{ with $slide.background.image.filename }}
+          {{ $img := resources.Get (printf "media/%s" .) }}
+          {{ $img = $img.Fit "1600x900 webp" }}
+          <img
+            src="{{ $img.RelPermalink }}"
+            alt="{{ $slide.title }}"
+            loading="{{ if eq $i 0 }}eager{{ else }}lazy{{ end }}"
+            style="
+              filter: brightness({{ $slide.background.image.filters.brightness | default 1 }});
+              object-position: {{ $slide.background.position | default "center" }};
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+            ">
+        {{ end }}
+
+        <div class="slide-content {{ $slide.align | default "left" }}">
+          <h1>{{ $slide.title | markdownify }}</h1>
+          {{ with $slide.content }}
+            <p>{{ . | markdownify }}</p>
+          {{ end }}
+
+          {{ with $slide.link }}
+            <a class="btn btn-primary" href="{{ .url }}">
+              {{ if .icon }}<i class="{{ .icon_pack }} fa-{{ .icon }}"></i> {{ end }}
+              {{ .text }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>

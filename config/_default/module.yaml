@@ -6,4 +6,6 @@
 
 imports:
   - path: github.com/gzu-ai/hugo-blox-builder/modules/blox-krrbootstrap
+  # - path: F:\MyGit\hugo-blox-builder-main\hugo-blox-builder-main\modules\blox-krrbootstrap
+  - path: github.com/gzu-ai/hugo-blox-builder/modules/blox-seo
   - path: vendor
