@@ -74,5 +74,6 @@ sections:
 ---
 
 ### 项目仓库
-{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
 {{<github_repo "YtJin-git/awesome-CZSL-papers" "杰出组合零样本学习论文" >}}
+{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
+{{<github_repo "YtJin-git/EGLGE" "Exclusive Group Lasso Graph Embeddings for Compositional Zero-Shot Learning" >}}

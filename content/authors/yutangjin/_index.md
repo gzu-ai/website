@@ -1,13 +1,11 @@
 ---
-type: authors
-
 # Display name
 title: Yutang Jin
 
 # Username (this should match the folder name and the name on publications)
 authors:
 - yutangjin
-avatar: avater.jpg
+
 # Is this the primary user of the site?
 superuser: false
 
@@ -68,5 +66,6 @@ user_groups:
 ---
 
 ### Github repository
-{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
 {{<github_repo "YtJin-git/awesome-CZSL-papers" "Awesome Compositional Zero-Shot Learning Papers" >}}
+{{<github_repo "YtJin-git/MPPE" "Multi-modal Prompts with Primitives Enhancement for Compositional Zero-Shot Learning" >}}
+{{<github_repo "YtJin-git/EGLGE" "Exclusive Group Lasso Graph Embeddings for Compositional Zero-Shot Learning" >}}
