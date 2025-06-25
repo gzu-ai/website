@@ -18,7 +18,7 @@ organizations:
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 贵州大学硕士一年级在读生，科研小白，对科研抱有热爱之心，在科研之余喜爱运动，特别是乒乓球。
+bio: 
 
 # List each interest with a dash
 interests:
@@ -63,6 +63,6 @@ user_groups:
 - 硕士生
 ---
 
-贵州大学硕士一年级在读生，科研小白，对科研抱有热爱之心，在科研之余喜爱运动。
+我的个人主页: https://2hlovely.github.io/
 
 {{<github_repo "2hlovely/ZSL-DG_Papers" "一些优秀的零样本域泛化论文" >}}

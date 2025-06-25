@@ -18,7 +18,7 @@ organizations:
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports, especially table tennis.
+bio: 
 
 # List each interest with a dash
 interests:
@@ -66,6 +66,6 @@ user_groups:
 
 
 
-I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.
+My homepage: https://2hlovely.github.io/
 
 {{<github_repo "2hlovely/ZSL-DG_Papers" " Awesome-Zero-Shot-Learning-Domain-Generalization-Papers" >}}
