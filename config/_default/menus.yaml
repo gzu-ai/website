@@ -31,6 +31,22 @@ main:
     url: thesis
     weight: 2
     parent: Research
+  - name: Honor
+    url: honor
+    weight: 3
+    parent: Research
+  - name: Projects
+    url: projects
+    weight: 4
+    parent: Research
+  - name: Patents
+    url: patents
+    weight: 5
+    parent: Research
+  - name: Software copyrights
+    url: software_copyrights
+    weight: 6
+    parent: Research 
   - name: Events
     url: event
     weight: 40

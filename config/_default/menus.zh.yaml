@@ -25,6 +25,22 @@ main:
     url: thesis
     weight: 2
     parent: 科研
+  - name: 获奖
+    url: honor
+    weight: 3
+    parent: 科研
+  - name: 项目
+    url: projects
+    weight: 4
+    parent: 科研
+  - name: 专利
+    url: patents
+    weight: 5
+    parent: 科研
+  - name: 软著
+    url: software_copyrights
+    weight: 6
+    parent: 科研  
   - name: 联系我们
     url: contact
     weight: 60
