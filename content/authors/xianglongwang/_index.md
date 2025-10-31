@@ -59,7 +59,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+- PhD Candidate
 ---
 
 I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.

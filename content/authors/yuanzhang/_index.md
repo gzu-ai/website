@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 张媛
+title: Yuan Zhang
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -10,11 +10,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 研究生
+role: Grad Students
 
 # Organizations/Affiliations
 organizations:
-- name: 贵州大学
+- name: Guizhou University
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,11 +27,11 @@ interests:
 
 education:
   courses:
-  - course: 计算机科学与技术 硕士
-    institution: 贵州大学
+  - course: M.A. in Computer Science and Technology
+    institution: Guizhou University
     year: 2025
-  - course: 计算机科学与技术 学士
-    institution: 贵州大学
+  - course: B.S. in Computer Science and Technology
+    institution: Guizhou University
     year: 2022
 
 # Social/Academic Networking

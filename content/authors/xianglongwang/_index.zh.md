@@ -59,7 +59,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 硕士生
+- 博士生
 ---
 
 A third-year Master's student at Guizhou University, passionate about Spicy Chicken Rice Noodles, and hoping to gain weight (ˉ▽ˉ；)...
