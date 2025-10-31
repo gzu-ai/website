@@ -62,7 +62,3 @@ highlight_name: false
 user_groups:
 - 硕士生
 ---
-
-我的个人主页: https://2hlovely.github.io/
-
-{{<github_repo "2hlovely/ZSL-DG_Papers" "一些优秀的零样本域泛化论文" >}}

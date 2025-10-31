@@ -65,7 +65,3 @@ user_groups:
 ---
 
 
-
-My homepage: https://2hlovely.github.io/
-
-{{<github_repo "2hlovely/ZSL-DG_Papers" " Awesome-Zero-Shot-Learning-Domain-Generalization-Papers" >}}

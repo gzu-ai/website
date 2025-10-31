@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- 计算广告
-- 竞价优化
+- Computational advertising
+- Bidding optimization
 
 education:
   courses:

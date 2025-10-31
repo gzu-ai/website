@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- 组合零样本学习
-- 解耦表征学习
+- 计算广告
+- 竞价优化
 
 education:
   courses:
