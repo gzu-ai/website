@@ -1,37 +1,37 @@
 ---
 # Display name
-title: 段博文
+title: 刘雯雯
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- Bowen Duan
+  - wenwenliu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 研究生
+role: 硕士生
 
 # Organizations/Affiliations
 organizations:
-- name: 贵州大学
-  url: 'https://www.gzu.edu.cn/'
+  - name: 贵州大学
+    url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # List each interest with a dash
 interests:
-- 零样本学习
+- 医学影像处理
 
 education:
   courses:
-  - course: 计算机科学与技术 硕士
+  - course: 计算机技术 硕士
     institution: 贵州大学
-    year: 2025
-  - course: 计算机科学与技术 学士
-    institution: 贵州大学
-    year: 2022
+    year: 2025 - 至今
+  - course: 信息管理与信息系统 学士
+    institution: 天津天狮学院
+    year: 2020 - 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -40,10 +40,9 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 
-- icon: github
-  icon_pack: fab
-  link: 
+  link: 'mailto:2914908974@qq.com'  # For a direct email link, use "mailto:test@example.org".
+
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -59,7 +58,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-# - 硕士生
-  - 毕业生
+- 硕士生
 ---
-

@@ -29,7 +29,7 @@ education:
   courses:
   - course: M.A. in Artificial Intelligence 
     institution: Guizhou University
-    year: 2022-2025
+    year: 2022 - 2025
   - course: B.S. in Information and Computational Science
     institution: Shanghai Ocean University
     year: 2021
@@ -58,6 +58,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Grad Students
+# - Grad Students
+- Alumni
 ---
 
