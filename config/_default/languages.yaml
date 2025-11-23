@@ -8,7 +8,7 @@ en:
   languageCode: 'en-US'
   languageDirection: 'ltr'
   languageName: 'English'
-  title: 'Omiga-krr Group'
+  title: 'Omega-krr Group'
   weight: 2
 # Uncomment the lines below to configure your website in a second language.
 zh:
@@ -16,7 +16,7 @@ zh:
   languageCode: 'zh-CN'
   languageDirection: 'ltr'
   languageName: '中文'
-  title: 'Omiga 知识表示与推理'
+  title: 'Omega 知识表示与推理'
   weight: 1
   hasCJKLanguage: true
 #  contentDir: content/zhs

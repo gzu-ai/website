@@ -64,7 +64,7 @@ sections:
           icon_pack: fab
           text: Follow us
           url: 'https://github.com/gzu-ai'
-      - title: Omiga-krr Group
+      - title: Omega-krr Group
         content: 'Professor Wang Yisong has supervised more than 200 Ph.D. and M.S. students.🎓'
         align: right
         background:

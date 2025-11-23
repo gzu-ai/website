@@ -3,7 +3,7 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Omiga-krr Group # Website name
+title: Omega-krr Group # Website name
 baseURL: '/' # Website URL
 
 params:
@@ -52,7 +52,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} [Omiga-krr Group](https://github.com/gzu-ai/). This work is licensed under {license}'
+    notice: '© {year} [Omega-krr Group](https://github.com/gzu-ai/). This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
