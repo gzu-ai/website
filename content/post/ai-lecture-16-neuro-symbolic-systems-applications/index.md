@@ -1,7 +1,7 @@
 ---
 title: "AI Lecture 16: Neuro-Symbolic Systems and Applications"
 summary: "Prof. Maonian Wu (Huzhou University) presents Neuro-Symbolic Systems and Applications."
-date: '2026-07-19T09:00:00+08:00'
+date: '2026-07-20T09:00:00+08:00'
 publishDate: '2026-07-19T00:00:00+08:00'
 authors: ['yisongwang']
 tags: ['Artificial Intelligence', 'Academic Lectures']
@@ -13,7 +13,7 @@ image:
 
 - Speaker: Prof. Maonian Wu (Huzhou University)
 - Host: Yisong Wang (Guizhou University)
-- Time: July 21, 2026 (Tuesday), 9:00–11:00
+- Time: July 20, 2026 (Monday), 9:00–11:00
 - Venue: Room 402, Zhishan Building, Guizhou University
 
 ## Abstract
