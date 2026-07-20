@@ -22,7 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- 零样本学习
+- 医学影像处理
 
 education:
   courses:

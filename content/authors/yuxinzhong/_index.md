@@ -23,7 +23,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- Compositional Zero-shot Learning
+- Medical Image Processing
 
 education:
   courses:
