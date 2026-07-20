@@ -18,7 +18,7 @@ organizations:
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: A third-year Master's student at Guizhou University, passionate about Spicy Chicken Rice Noodles, and hoping to gain weight (ˉ▽ˉ；)...
+bio: 贵州大学博士生。
 
 # List each interest with a dash
 interests:
@@ -62,4 +62,4 @@ user_groups:
 - 博士生
 ---
 
-A third-year Master's student at Guizhou University, passionate about Spicy Chicken Rice Noodles, and hoping to gain weight (ˉ▽ˉ；)...
+贵州大学博士生。

@@ -18,7 +18,7 @@ organizations:
   url: 'https://www.gzu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports, especially table tennis.
+bio: I am a PhD candidate at Guizhou University.
 
 # List each interest with a dash
 interests:
@@ -62,4 +62,4 @@ user_groups:
 - PhD Candidate
 ---
 
-I am a first-year master's student at Guizhou University, new to research but passionate about it. Outside of my research, I enjoy sports especially.
+I am a PhD candidate at Guizhou University.
