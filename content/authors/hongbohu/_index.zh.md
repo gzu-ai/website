@@ -63,7 +63,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 # - 博士生
-  - 毕业生
+  - 博士毕业生
 
 sections:
   - block: skills

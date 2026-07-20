@@ -60,6 +60,5 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 # - 硕士生
-  - 毕业生
+  - 硕士毕业生
 ---
-
