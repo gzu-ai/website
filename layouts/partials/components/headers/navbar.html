@@ -73,7 +73,7 @@
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
-                <a class="dropdown-item" href="{{ partial "functions/get_menu_url.html" . }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+                <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
                   {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
                 </a>
               {{ end }}
@@ -115,7 +115,7 @@
           {{end}}
 
           <li class="nav-item">
-            <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{ partial "functions/get_menu_url.html" . }}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
+            <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>
@@ -139,7 +139,7 @@
           {{ end }}
 
           <li class="nav-item">
-            <a class="nav-link" href="{{ partial "functions/get_menu_url.html" . }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
+            <a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>

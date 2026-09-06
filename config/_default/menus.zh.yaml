@@ -47,5 +47,3 @@ main:
   - name: 成员登录
     url: /admin/
     weight: 70
-    params:
-      root: true

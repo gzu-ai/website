@@ -56,5 +56,3 @@ main:
   - name: Member Login
     url: /admin/
     weight: 70
-    params:
-      root: true
