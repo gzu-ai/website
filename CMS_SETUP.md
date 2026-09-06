@@ -82,12 +82,11 @@ ssh-keygen -t ed25519 -C 'gzu-ai website deploy' -f ./gzu-ai-website-deploy
 
 - Require a pull request before merging
 - Require approvals（至少 1 人）
-- Require review from Code Owners
 - Require status checks，选择 `Build and deploy website / build`
 - Block force pushes
 - Restrict deletions
 
-当前 Code Owner 是 `@MaCyLov`。如需多人审核，请在 `.github/CODEOWNERS` 中加入其他实验室管理员的 GitHub 用户名，或换成已有团队。
+当前 Code Owner 是已经确认的 `@2hlovely`。如需多人审核，可在 `.github/CODEOWNERS` 中加入其他实验室管理员的 GitHub 用户名或团队。
 
 ## 使用方式
 

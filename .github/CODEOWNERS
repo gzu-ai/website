@@ -1,6 +1,6 @@
-# Add further lab maintainers here as GitHub usernames when needed.
-/content/authors/ @MaCyLov
-/static/admin/ @MaCyLov
-/.github/ @MaCyLov
-/deploy/ @MaCyLov
-/tools/cms-oauth/ @MaCyLov
+# Member profiles and deployment configuration require the confirmed maintainer's review.
+/content/authors/ @2hlovely
+/static/admin/ @2hlovely
+/.github/ @2hlovely
+/deploy/ @2hlovely
+/tools/cms-oauth/ @2hlovely
