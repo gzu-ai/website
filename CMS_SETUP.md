@@ -6,8 +6,8 @@
 
 1. 为网站配置正式域名及 HTTPS。管理后台会拒绝在公网 HTTP 页面加载。
 2. 在 GitHub 创建 OAuth App：
-   - Homepage URL：`https://<网站域名>/admin/`
-   - Authorization callback URL：`https://<网站域名>/callback`
+   - Homepage URL：`https://www.omega-krr-gz.cn/admin/`
+   - Authorization callback URL：`https://www.omega-krr-gz.cn/callback`
    - 不要启用 callback URL 通配符。
 3. 将 Client ID 和 Client Secret 仅保存到服务器 `/etc/omega-cms-oauth.env`，不要提交到 Git。
 
@@ -16,8 +16,8 @@
 ```dotenv
 GITHUB_CLIENT_ID=<GitHub OAuth App Client ID>
 GITHUB_CLIENT_SECRET=<GitHub OAuth App Client Secret>
-OAUTH_PUBLIC_URL=https://<网站域名>
-CMS_ALLOWED_ORIGIN=https://<网站域名>
+OAUTH_PUBLIC_URL=https://www.omega-krr-gz.cn
+CMS_ALLOWED_ORIGIN=https://www.omega-krr-gz.cn
 OAUTH_LISTEN=127.0.0.1:3000
 GITHUB_SCOPE=public_repo user:email
 ```
@@ -90,7 +90,7 @@ ssh-keygen -t ed25519 -C 'gzu-ai website deploy' -f ./gzu-ai-website-deploy
 
 ## 使用方式
 
-1. 同学访问 `https://<网站域名>/admin/` 并通过 GitHub 登录。
+1. 同学访问 `https://www.omega-krr-gz.cn/admin/` 并通过 GitHub 登录。
 2. 新建或修改自己的中英文资料，保存草稿后选择“提交审核”。
 3. GitHub 自动创建 Pull Request；管理员检查内容与构建结果后合并。
 4. 合并到 `dev` 后 GitHub Actions 自动构建、备份并发布。
