@@ -47,6 +47,8 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
+HTTPS 证书续期由 `certbot-renew.timer` 每日自动检查。
+
 ## 自动部署配置
 
 服务器上安装受限的发布脚本：

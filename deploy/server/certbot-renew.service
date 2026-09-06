@@ -1,0 +1,6 @@
+[Unit]
+Description=Renew Let's Encrypt certificates for the Omega KRR website
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/certbot renew --quiet --deploy-hook "/usr/sbin/nginx -s reload"
