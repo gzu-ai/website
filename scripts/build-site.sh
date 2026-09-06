@@ -5,6 +5,7 @@ REPO_ROOT=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 HUGO_BIN=${HUGO_BIN:-hugo}
 BUILD_OUTPUT=${BUILD_OUTPUT:-"$REPO_ROOT/public"}
 MODULE_PROXY=${MODULE_PROXY:-https://proxy.golang.org}
+MODULE_FALLBACK_PROXY=${MODULE_FALLBACK_PROXY:-https://goproxy.cn}
 
 BUILD_SCRATCH=
 MODULE_SCRATCH=
@@ -33,7 +34,9 @@ prepare_module() {
   local unpack="$MODULE_ROOT/$(basename "$target")-unpack"
 
   mkdir -p "$target" "$unpack"
-  curl -fsSL --retry 3 "$MODULE_PROXY/$module_path/@v/$version.zip" -o "$archive"
+  if ! curl -fsSL --retry 3 "$MODULE_PROXY/$module_path/@v/$version.zip" -o "$archive"; then
+    curl -fsSL --retry 3 "$MODULE_FALLBACK_PROXY/$module_path/@v/$version.zip" -o "$archive"
+  fi
   unzip -q -o "$archive" -d "$unpack"
   local source
   source=$(find "$unpack" -type f -name go.mod -print -quit)
@@ -59,8 +62,8 @@ cd "$BUILD_ROOT"
 go mod edit -replace=github.com/gzu-ai/hugo-blox-builder/modules/blox-core="$MODULE_ROOT/core"
 go mod edit -replace=github.com/gzu-ai/hugo-blox-builder/modules/blox-seo="$MODULE_ROOT/seo"
 
-HUGO_MODULE_PROXY="$MODULE_PROXY,direct" \
-GOPROXY="$MODULE_PROXY,direct" \
+HUGO_MODULE_PROXY="$MODULE_PROXY,$MODULE_FALLBACK_PROXY,direct" \
+GOPROXY="$MODULE_PROXY,$MODULE_FALLBACK_PROXY,direct" \
 "$HUGO_BIN" --minify --destination "$BUILD_OUTPUT"
 
 test -f "$BUILD_OUTPUT/zh/index.html"
