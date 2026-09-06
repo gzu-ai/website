@@ -53,3 +53,6 @@ main:
   - name: Contact
     url: contact
     weight: 60
+  - name: Member Login
+    url: /admin/
+    weight: 70

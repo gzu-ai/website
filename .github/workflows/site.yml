@@ -1,0 +1,90 @@
+name: Build and deploy website
+
+on:
+  pull_request:
+    branches: [dev]
+  push:
+    branches: [dev]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      HUGO_VERSION: 0.164.0
+      BUILD_OUTPUT: ${{ github.workspace }}/public
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install Hugo Extended
+        shell: bash
+        run: |
+          set -euo pipefail
+          package="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          base="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}"
+          curl -fsSL --retry 3 "$base/$package" -o /tmp/hugo.tar.gz
+          curl -fsSL --retry 3 "$base/hugo_${HUGO_VERSION}_checksums.txt" -o /tmp/hugo-checksums.txt
+          expected=$(grep " $package$" /tmp/hugo-checksums.txt | cut -d ' ' -f 1)
+          actual=$(sha256sum /tmp/hugo.tar.gz | cut -d ' ' -f 1)
+          test -n "$expected"
+          test "$actual" = "$expected"
+          sudo tar -xzf /tmp/hugo.tar.gz -C /usr/local/bin hugo
+          hugo version
+
+      - name: Build site
+        run: ./scripts/build-site.sh
+
+      - name: Verify author translations and admin
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(find content/authors -mindepth 2 -maxdepth 2 -name '_index.zh.md' | wc -l)" -eq \
+               "$(find content/authors -mindepth 2 -maxdepth 2 -name '_index.en.md' | wc -l)"
+          test -f public/admin/index.html
+          test -f public/admin/config.js
+
+      - name: Configure deployment SSH
+        if: github.event_name != 'pull_request' && env.DEPLOY_HOST != '' && env.DEPLOY_USER != '' && env.DEPLOY_SSH_KEY != '' && env.DEPLOY_KNOWN_HOSTS != ''
+        shell: bash
+        run: |
+          install -d -m 0700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 0600 ~/.ssh/deploy_key ~/.ssh/known_hosts
+
+      - name: Upload release
+        if: github.event_name != 'pull_request' && env.DEPLOY_HOST != '' && env.DEPLOY_USER != '' && env.DEPLOY_SSH_KEY != '' && env.DEPLOY_KNOWN_HOSTS != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          port=${DEPLOY_PORT:-22}
+          ssh -i ~/.ssh/deploy_key -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" \
+            "mkdir -p /home/mr/releases/${GITHUB_SHA}"
+          rsync -az --delete -e "ssh -i ~/.ssh/deploy_key -p $port" \
+            public/ "$DEPLOY_USER@$DEPLOY_HOST:/home/mr/releases/${GITHUB_SHA}/"
+
+      - name: Activate release
+        if: github.event_name != 'pull_request' && env.DEPLOY_HOST != '' && env.DEPLOY_USER != '' && env.DEPLOY_SSH_KEY != '' && env.DEPLOY_KNOWN_HOSTS != ''
+        shell: bash
+        run: |
+          port=${DEPLOY_PORT:-22}
+          ssh -i ~/.ssh/deploy_key -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" \
+            "sudo -n /usr/local/sbin/deploy-lab-site ${GITHUB_SHA}"

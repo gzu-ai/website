@@ -44,3 +44,6 @@ main:
   - name: 联系我们
     url: contact
     weight: 60
+  - name: 成员登录
+    url: /admin/
+    weight: 70

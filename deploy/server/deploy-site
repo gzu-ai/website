@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -ne 1 || ! $1 =~ ^[0-9a-f]{40}$ ]]; then
+  echo "usage: deploy-site <40-character-git-sha>" >&2
+  exit 2
+fi
+
+SHA=$1
+SOURCE="/home/mr/releases/$SHA"
+LIVE=/data/html/dev
+STAMP=$(date +%Y%m%d-%H%M%S)
+STAGE="/data/html/dev.new.$STAMP"
+BACKUP="/data/html/dev.backup.$STAMP"
+
+test -d "$SOURCE"
+test -f "$SOURCE/zh/index.html"
+test -f "$SOURCE/en/index.html"
+test -f "$SOURCE/admin/index.html"
+
+mkdir "$STAGE"
+trap 'rm -rf "$STAGE"' EXIT
+rsync -a --delete --chown=root:root "$SOURCE/" "$STAGE/"
+nginx -t
+
+mv "$LIVE" "$BACKUP"
+if ! mv "$STAGE" "$LIVE"; then
+  mv "$BACKUP" "$LIVE"
+  exit 1
+fi
+trap - EXIT
+
+rm -rf "$SOURCE"
+find /data/html -maxdepth 1 -type d -name 'dev.backup.*' -printf '%T@ %p\n' \
+  | sort -rn | awk 'NR > 5 {print $2}' | xargs -r rm -rf
+
+echo "deployed $SHA; backup: $BACKUP"

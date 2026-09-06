@@ -34,7 +34,7 @@
   {{end}}
 
   {{ range $query }}
-  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ $avatar := partial "functions/get_author_avatar.html" . }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
   {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}

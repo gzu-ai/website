@@ -10,7 +10,7 @@
   {{ if and (eq $site_type "Person") (eq $author_page.Params.superuser true) }}
     {{ $profile_url = site.BaseURL }}
   {{ end }}
-  {{ $avatar := ($author_page.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ $avatar := partial "functions/get_author_avatar.html" $author_page }}
   {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
   <div class="media author-card content-widget-hr">
     {{ if and site.Params.features.avatar.gravatar $author_page.Params.email }}

@@ -1,0 +1,20 @@
+[Unit]
+Description=Omega KRR website Decap CMS OAuth proxy
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=mr
+Group=mr
+EnvironmentFile=/etc/omega-cms-oauth.env
+ExecStart=/usr/local/bin/omega-cms-oauth
+Restart=on-failure
+RestartSec=5s
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

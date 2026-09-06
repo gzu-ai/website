@@ -1,0 +1,9 @@
+{{- $author := . -}}
+{{- $avatar := false -}}
+{{- with $author.Params.avatar -}}
+  {{- $avatar = $author.Resources.GetMatch (strings.TrimPrefix "/" .) -}}
+{{- end -}}
+{{- if not $avatar -}}
+  {{- $avatar = ($author.Resources.ByType "image").GetMatch "*avatar*" -}}
+{{- end -}}
+{{- return $avatar -}}
